@@ -3,3 +3,5 @@
 
 #Terraform settings
 .terraform
+backend-config.tfvars
+.terraform*
