@@ -5,3 +5,4 @@
 .terraform
 backend-config.tfvars
 .terraform*
+secret.tfvars
