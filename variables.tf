@@ -22,11 +22,16 @@ variable "application_port" {
 }
 
 variable "vmss_user" {
-    description = "User name to use as admin account on VMs"
-    sensitive   = true
+    description = "User name to use as admin account in the Virtual Machines"
+    sensitive = true
 }
 
 variable "vmss_password" {
     description = "Password for admin account"
     sensitive   = true
+}
+
+variable "quantity" {
+    description = "Number of virtual machines that are in the scale set"
+    default = 2
 }
