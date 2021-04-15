@@ -1,2 +1,2 @@
-vmss_user            = "azureuser"
-vmss_password        = "Password@123"
+vmss_user     = "azureuser"
+vmss_password = "Password@123"
